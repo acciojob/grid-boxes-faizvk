@@ -14,13 +14,13 @@
 }
 
 .one {
-  grid-column: span 4;
+  grid-column: span 4 / auto;
   grid-row: 1;
 }
 
 .two {
   grid-column: 1;
-  grid-row: span 4;
+  grid-row: span 4 / auto;
 }
 
 .three {
@@ -29,12 +29,12 @@
 }
 
 .four {
-  grid-column: span 2;
+  grid-column: span 2 / auto;
   grid-row: 2;
 }
 
 .five {
-  grid-column: 2 / span 2;
+  grid-column: span 2 / auto;
   grid-row: 3;
 }
 
@@ -59,6 +59,6 @@
 }
 
 .ten {
-  grid-column: span 3;
+  grid-column: span 3 / auto;
   grid-row: 5;
 }

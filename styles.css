@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
   grid-template-rows: 124px 124px 124px 124px 124px;
-  grid-gap:10px 10px;
+  grid-gap: 10px 10px;
 }
 
 .item {
@@ -33,7 +33,7 @@
 }
 
 .five {
-  grid-column:2/ span 2 ;
+  grid-column: span 2 / auto;
   grid-row: 3;
 }
 
@@ -58,6 +58,6 @@
 }
 
 .ten {
-  grid-column: 2/span 3 ;  
+  grid-column: span 3 / auto;
   grid-row: 5;
 }
